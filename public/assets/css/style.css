@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+.material-icons {
+   font-size: 600px !important;
+   letter-spacing: -220px !important;
+   vertical-align: middle !important;
+   padding-top: 100px !important;
+}
+
+
