@@ -8,5 +8,15 @@ body {
    vertical-align: middle !important;
    padding-top: 100px !important;
 }
+@media only screen and (max-width: 600px) {
+    .material-icons {
+        font-size: 100px !important;
+        letter-spacing: -40px !important;
+   vertical-align: middle !important;
+   padding-top: 100px !important;
+   padding-left:100px !important;
+    }
+
+}
 
 
