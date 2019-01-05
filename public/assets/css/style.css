@@ -1,20 +1,29 @@
 body {
-    background-color: black;
+  
 }
 
 .material-icons {
-   font-size: 600px !important;
-   letter-spacing: -220px !important;
-   vertical-align: middle !important;
+   font-size: 200px !important;
+   letter-spacing: -80px !important;
+   margin-right:80px;
    padding-top: 100px !important;
+}
+#trashtrash {
+    color: white;
+}
+#splashTrash {
+    height: auto !important;
+    padding-bottom:800px;
+    background-color: black;
 }
 @media only screen and (max-width: 600px) {
     .material-icons {
-        font-size: 100px !important;
-        letter-spacing: -40px !important;
-   vertical-align: middle !important;
-   padding-top: 100px !important;
-   padding-left:100px !important;
+    font-size: 100px !important;
+    letter-spacing: -40px !important;
+    vertical-align: middle !important;
+    padding-top: 100px !important;
+    padding-left:0px !important;
+    margin-right:50px;
     }
 
 }
