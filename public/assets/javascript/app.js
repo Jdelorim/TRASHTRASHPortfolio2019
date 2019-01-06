@@ -2,6 +2,13 @@ var firstTime;
 var myInt;
 var myTime;
 document.addEventListener("DOMContentLoaded", () => {
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-131826143-1');
+
     var tooltiper = document.querySelectorAll('.tooltipped');
     M.Tooltip.init(tooltiper, {});
 
