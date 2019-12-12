@@ -1,55 +1,22 @@
 body {
-  
-}
+  margin: 0;
 
-.material-icons {
-   font-size: 200px !important;
-   letter-spacing: -80px !important;
-   margin-right:80px;
-   padding-top: 100px !important;
 }
-#trashtrash {
-    color: white;
-}
-#splashTrash {
-    height: auto !important;
-    padding-bottom:800px;
-    background-color: black;
-}
-.TTtext h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0px; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end);
-      
-  }
-  #canvas {
-    background-color: #000000;
+#canvas {
     width: 100%;
-    height: 500px;
-    border: 1px solid black;
-     }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-
-@media only screen and (max-width: 600px) {
-    .material-icons {
-    font-size: 100px !important;
-    letter-spacing: -40px !important;
-    vertical-align: middle !important;
-    padding-top: 100px !important;
-    padding-left:0px !important;
-    margin-right:50px;
-    }
-
+    height: 100%;
 }
+.jtitle{
+  position: absolute;
+	top: 10px;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+	z-index: 100;
+	display:block;
+}
+
+
 
 
