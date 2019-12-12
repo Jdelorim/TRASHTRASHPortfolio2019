@@ -4,7 +4,9 @@ const bodyParser = require("body-parser");
 const hbs = require("express-handlebars");
 const app = express();
 const PORT = process.env.PORT || 4040;
-
+//forces ssl 
+const enforce = require('express-sslify');
+ app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
